@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		332E9AE92BF6335E00AD56D8 /* Magic Sound.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 332E9AE82BF6335E00AD56D8 /* Magic Sound.ttf */; };
+		332E9B0C2BF6336700AD56D8 /* JMH Typewriter mono Black Cross.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 332E9AEA2BF6336700AD56D8 /* JMH Typewriter mono Black Cross.ttf */; };
+		332E9B0D2BF6336700AD56D8 /* JMH Typewriter mono Black Italic Cross.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 332E9AEB2BF6336700AD56D8 /* JMH Typewriter mono Black Italic Cross.ttf */; };
+		332E9B0E2BF6336700AD56D8 /* JMH Typewriter mono Black Italic Over.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 332E9AEC2BF6336700AD56D8 /* JMH Typewriter mono Black Italic Over.ttf */; };
+		332E9B0F2BF6336700AD56D8 /* JMH Typewriter mono Black Italic Under.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 332E9AED2BF6336700AD56D8 /* JMH Typewriter mono Black Italic Under.ttf */; };
+		332E9B102BF6336700AD56D8 /* JMH Typewriter mono Black Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 332E9AEE2BF6336700AD56D8 /* JMH Typewriter mono Black Italic.ttf */; };
+		332E9B112BF6336700AD56D8 /* JMH Typewriter mono Black Over.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 332E9AEF2BF6336700AD56D8 /* JMH Typewriter mono Black Over.ttf */; };
+		332E9B122BF6336700AD56D8 /* JMH Typewriter mono Black Under.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 332E9AF02BF6336700AD56D8 /* JMH Typewriter mono Black Under.ttf */; };
+		332E9B132BF6336700AD56D8 /* JMH Typewriter mono Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 332E9AF12BF6336700AD56D8 /* JMH Typewriter mono Black.ttf */; };
+		332E9B142BF6336700AD56D8 /* JMH Typewriter mono Bold Cross.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 332E9AF22BF6336700AD56D8 /* JMH Typewriter mono Bold Cross.ttf */; };
+		332E9B152BF6336700AD56D8 /* JMH Typewriter mono Bold Italic Cross.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 332E9AF32BF6336700AD56D8 /* JMH Typewriter mono Bold Italic Cross.ttf */; };
+		332E9B162BF6336700AD56D8 /* JMH Typewriter mono Bold Italic Over.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 332E9AF42BF6336700AD56D8 /* JMH Typewriter mono Bold Italic Over.ttf */; };
+		332E9B172BF6336700AD56D8 /* JMH Typewriter mono Bold Italic Under.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 332E9AF52BF6336700AD56D8 /* JMH Typewriter mono Bold Italic Under.ttf */; };
+		332E9B182BF6336700AD56D8 /* JMH Typewriter mono Bold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 332E9AF62BF6336700AD56D8 /* JMH Typewriter mono Bold Italic.ttf */; };
+		332E9B192BF6336700AD56D8 /* JMH Typewriter mono Bold Over.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 332E9AF72BF6336700AD56D8 /* JMH Typewriter mono Bold Over.ttf */; };
+		332E9B1A2BF6336700AD56D8 /* JMH Typewriter mono Bold Under.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 332E9AF82BF6336700AD56D8 /* JMH Typewriter mono Bold Under.ttf */; };
+		332E9B1B2BF6336700AD56D8 /* JMH Typewriter mono Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 332E9AF92BF6336700AD56D8 /* JMH Typewriter mono Bold.ttf */; };
+		332E9B1C2BF6336700AD56D8 /* JMH Typewriter mono Cross.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 332E9AFA2BF6336700AD56D8 /* JMH Typewriter mono Cross.ttf */; };
+		332E9B1D2BF6336700AD56D8 /* JMH Typewriter mono Fine Cross.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 332E9AFB2BF6336700AD56D8 /* JMH Typewriter mono Fine Cross.ttf */; };
+		332E9B1E2BF6336700AD56D8 /* JMH Typewriter mono Fine Italic Cross.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 332E9AFC2BF6336700AD56D8 /* JMH Typewriter mono Fine Italic Cross.ttf */; };
+		332E9B1F2BF6336700AD56D8 /* JMH Typewriter mono Fine Italic Over.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 332E9AFD2BF6336700AD56D8 /* JMH Typewriter mono Fine Italic Over.ttf */; };
+		332E9B202BF6336700AD56D8 /* JMH Typewriter mono Fine Italic Under.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 332E9AFE2BF6336700AD56D8 /* JMH Typewriter mono Fine Italic Under.ttf */; };
+		332E9B212BF6336700AD56D8 /* JMH Typewriter mono Fine Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 332E9AFF2BF6336700AD56D8 /* JMH Typewriter mono Fine Italic.ttf */; };
+		332E9B222BF6336700AD56D8 /* JMH Typewriter mono Fine Over.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 332E9B002BF6336700AD56D8 /* JMH Typewriter mono Fine Over.ttf */; };
+		332E9B232BF6336700AD56D8 /* JMH Typewriter mono Fine Under.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 332E9B012BF6336700AD56D8 /* JMH Typewriter mono Fine Under.ttf */; };
+		332E9B242BF6336700AD56D8 /* JMH Typewriter mono Fine.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 332E9B022BF6336700AD56D8 /* JMH Typewriter mono Fine.ttf */; };
+		332E9B252BF6336700AD56D8 /* JMH Typewriter mono Italic Cross.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 332E9B032BF6336700AD56D8 /* JMH Typewriter mono Italic Cross.ttf */; };
+		332E9B262BF6336700AD56D8 /* JMH Typewriter mono Italic Over.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 332E9B042BF6336700AD56D8 /* JMH Typewriter mono Italic Over.ttf */; };
+		332E9B272BF6336700AD56D8 /* JMH Typewriter mono Italic Under.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 332E9B052BF6336700AD56D8 /* JMH Typewriter mono Italic Under.ttf */; };
+		332E9B282BF6336700AD56D8 /* JMH Typewriter mono Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 332E9B062BF6336700AD56D8 /* JMH Typewriter mono Italic.ttf */; };
+		332E9B292BF6336700AD56D8 /* JMH Typewriter mono Over.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 332E9B072BF6336700AD56D8 /* JMH Typewriter mono Over.ttf */; };
+		332E9B2A2BF6336700AD56D8 /* JMH Typewriter mono Under.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 332E9B082BF6336700AD56D8 /* JMH Typewriter mono Under.ttf */; };
+		332E9B2B2BF6336700AD56D8 /* JMH Typewriter mono.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 332E9B092BF6336700AD56D8 /* JMH Typewriter mono.ttf */; };
+		332E9B2C2BF6336700AD56D8 /* Personal Use Only-User Terms Agreement.txt in Resources */ = {isa = PBXBuildFile; fileRef = 332E9B0A2BF6336700AD56D8 /* Personal Use Only-User Terms Agreement.txt */; };
+		3371792A2BF4E4CB00169829 /* RetroPopAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337179292BF4E4CB00169829 /* RetroPopAppApp.swift */; };
+		3371792C2BF4E4CB00169829 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3371792B2BF4E4CB00169829 /* ContentView.swift */; };
+		3371792E2BF4E4CD00169829 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3371792D2BF4E4CD00169829 /* Assets.xcassets */; };
+		337179312BF4E4CD00169829 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 337179302BF4E4CD00169829 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		332E9AE82BF6335E00AD56D8 /* Magic Sound.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Magic Sound.ttf"; sourceTree = "<group>"; };
+		332E9AEA2BF6336700AD56D8 /* JMH Typewriter mono Black Cross.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JMH Typewriter mono Black Cross.ttf"; sourceTree = "<group>"; };
+		332E9AEB2BF6336700AD56D8 /* JMH Typewriter mono Black Italic Cross.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JMH Typewriter mono Black Italic Cross.ttf"; sourceTree = "<group>"; };
+		332E9AEC2BF6336700AD56D8 /* JMH Typewriter mono Black Italic Over.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JMH Typewriter mono Black Italic Over.ttf"; sourceTree = "<group>"; };
+		332E9AED2BF6336700AD56D8 /* JMH Typewriter mono Black Italic Under.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JMH Typewriter mono Black Italic Under.ttf"; sourceTree = "<group>"; };
+		332E9AEE2BF6336700AD56D8 /* JMH Typewriter mono Black Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JMH Typewriter mono Black Italic.ttf"; sourceTree = "<group>"; };
+		332E9AEF2BF6336700AD56D8 /* JMH Typewriter mono Black Over.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JMH Typewriter mono Black Over.ttf"; sourceTree = "<group>"; };
+		332E9AF02BF6336700AD56D8 /* JMH Typewriter mono Black Under.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JMH Typewriter mono Black Under.ttf"; sourceTree = "<group>"; };
+		332E9AF12BF6336700AD56D8 /* JMH Typewriter mono Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JMH Typewriter mono Black.ttf"; sourceTree = "<group>"; };
+		332E9AF22BF6336700AD56D8 /* JMH Typewriter mono Bold Cross.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JMH Typewriter mono Bold Cross.ttf"; sourceTree = "<group>"; };
+		332E9AF32BF6336700AD56D8 /* JMH Typewriter mono Bold Italic Cross.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JMH Typewriter mono Bold Italic Cross.ttf"; sourceTree = "<group>"; };
+		332E9AF42BF6336700AD56D8 /* JMH Typewriter mono Bold Italic Over.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JMH Typewriter mono Bold Italic Over.ttf"; sourceTree = "<group>"; };
+		332E9AF52BF6336700AD56D8 /* JMH Typewriter mono Bold Italic Under.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JMH Typewriter mono Bold Italic Under.ttf"; sourceTree = "<group>"; };
+		332E9AF62BF6336700AD56D8 /* JMH Typewriter mono Bold Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JMH Typewriter mono Bold Italic.ttf"; sourceTree = "<group>"; };
+		332E9AF72BF6336700AD56D8 /* JMH Typewriter mono Bold Over.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JMH Typewriter mono Bold Over.ttf"; sourceTree = "<group>"; };
+		332E9AF82BF6336700AD56D8 /* JMH Typewriter mono Bold Under.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JMH Typewriter mono Bold Under.ttf"; sourceTree = "<group>"; };
+		332E9AF92BF6336700AD56D8 /* JMH Typewriter mono Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JMH Typewriter mono Bold.ttf"; sourceTree = "<group>"; };
+		332E9AFA2BF6336700AD56D8 /* JMH Typewriter mono Cross.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JMH Typewriter mono Cross.ttf"; sourceTree = "<group>"; };
+		332E9AFB2BF6336700AD56D8 /* JMH Typewriter mono Fine Cross.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JMH Typewriter mono Fine Cross.ttf"; sourceTree = "<group>"; };
+		332E9AFC2BF6336700AD56D8 /* JMH Typewriter mono Fine Italic Cross.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JMH Typewriter mono Fine Italic Cross.ttf"; sourceTree = "<group>"; };
+		332E9AFD2BF6336700AD56D8 /* JMH Typewriter mono Fine Italic Over.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JMH Typewriter mono Fine Italic Over.ttf"; sourceTree = "<group>"; };
+		332E9AFE2BF6336700AD56D8 /* JMH Typewriter mono Fine Italic Under.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JMH Typewriter mono Fine Italic Under.ttf"; sourceTree = "<group>"; };
+		332E9AFF2BF6336700AD56D8 /* JMH Typewriter mono Fine Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JMH Typewriter mono Fine Italic.ttf"; sourceTree = "<group>"; };
+		332E9B002BF6336700AD56D8 /* JMH Typewriter mono Fine Over.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JMH Typewriter mono Fine Over.ttf"; sourceTree = "<group>"; };
+		332E9B012BF6336700AD56D8 /* JMH Typewriter mono Fine Under.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JMH Typewriter mono Fine Under.ttf"; sourceTree = "<group>"; };
+		332E9B022BF6336700AD56D8 /* JMH Typewriter mono Fine.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JMH Typewriter mono Fine.ttf"; sourceTree = "<group>"; };
+		332E9B032BF6336700AD56D8 /* JMH Typewriter mono Italic Cross.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JMH Typewriter mono Italic Cross.ttf"; sourceTree = "<group>"; };
+		332E9B042BF6336700AD56D8 /* JMH Typewriter mono Italic Over.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JMH Typewriter mono Italic Over.ttf"; sourceTree = "<group>"; };
+		332E9B052BF6336700AD56D8 /* JMH Typewriter mono Italic Under.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JMH Typewriter mono Italic Under.ttf"; sourceTree = "<group>"; };
+		332E9B062BF6336700AD56D8 /* JMH Typewriter mono Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JMH Typewriter mono Italic.ttf"; sourceTree = "<group>"; };
+		332E9B072BF6336700AD56D8 /* JMH Typewriter mono Over.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JMH Typewriter mono Over.ttf"; sourceTree = "<group>"; };
+		332E9B082BF6336700AD56D8 /* JMH Typewriter mono Under.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JMH Typewriter mono Under.ttf"; sourceTree = "<group>"; };
+		332E9B092BF6336700AD56D8 /* JMH Typewriter mono.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JMH Typewriter mono.ttf"; sourceTree = "<group>"; };
+		332E9B0A2BF6336700AD56D8 /* Personal Use Only-User Terms Agreement.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Personal Use Only-User Terms Agreement.txt"; sourceTree = "<group>"; };
+		332E9B2D2BF633AF00AD56D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		337179262BF4E4CB00169829 /* RetroPopApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetroPopApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		337179292BF4E4CB00169829 /* RetroPopAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetroPopAppApp.swift; sourceTree = "<group>"; };
+		3371792B2BF4E4CB00169829 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3371792D2BF4E4CD00169829 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		337179302BF4E4CD00169829 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		337179232BF4E4CB00169829 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		332E9AE72BF6334200AD56D8 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				332E9B0B2BF6336700AD56D8 /* jmh_typewriter_mono */,
+				332E9AE82BF6335E00AD56D8 /* Magic Sound.ttf */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		332E9B0B2BF6336700AD56D8 /* jmh_typewriter_mono */ = {
+			isa = PBXGroup;
+			children = (
+				332E9AEA2BF6336700AD56D8 /* JMH Typewriter mono Black Cross.ttf */,
+				332E9AEB2BF6336700AD56D8 /* JMH Typewriter mono Black Italic Cross.ttf */,
+				332E9AEC2BF6336700AD56D8 /* JMH Typewriter mono Black Italic Over.ttf */,
+				332E9AED2BF6336700AD56D8 /* JMH Typewriter mono Black Italic Under.ttf */,
+				332E9AEE2BF6336700AD56D8 /* JMH Typewriter mono Black Italic.ttf */,
+				332E9AEF2BF6336700AD56D8 /* JMH Typewriter mono Black Over.ttf */,
+				332E9AF02BF6336700AD56D8 /* JMH Typewriter mono Black Under.ttf */,
+				332E9AF12BF6336700AD56D8 /* JMH Typewriter mono Black.ttf */,
+				332E9AF22BF6336700AD56D8 /* JMH Typewriter mono Bold Cross.ttf */,
+				332E9AF32BF6336700AD56D8 /* JMH Typewriter mono Bold Italic Cross.ttf */,
+				332E9AF42BF6336700AD56D8 /* JMH Typewriter mono Bold Italic Over.ttf */,
+				332E9AF52BF6336700AD56D8 /* JMH Typewriter mono Bold Italic Under.ttf */,
+				332E9AF62BF6336700AD56D8 /* JMH Typewriter mono Bold Italic.ttf */,
+				332E9AF72BF6336700AD56D8 /* JMH Typewriter mono Bold Over.ttf */,
+				332E9AF82BF6336700AD56D8 /* JMH Typewriter mono Bold Under.ttf */,
+				332E9AF92BF6336700AD56D8 /* JMH Typewriter mono Bold.ttf */,
+				332E9AFA2BF6336700AD56D8 /* JMH Typewriter mono Cross.ttf */,
+				332E9AFB2BF6336700AD56D8 /* JMH Typewriter mono Fine Cross.ttf */,
+				332E9AFC2BF6336700AD56D8 /* JMH Typewriter mono Fine Italic Cross.ttf */,
+				332E9AFD2BF6336700AD56D8 /* JMH Typewriter mono Fine Italic Over.ttf */,
+				332E9AFE2BF6336700AD56D8 /* JMH Typewriter mono Fine Italic Under.ttf */,
+				332E9AFF2BF6336700AD56D8 /* JMH Typewriter mono Fine Italic.ttf */,
+				332E9B002BF6336700AD56D8 /* JMH Typewriter mono Fine Over.ttf */,
+				332E9B012BF6336700AD56D8 /* JMH Typewriter mono Fine Under.ttf */,
+				332E9B022BF6336700AD56D8 /* JMH Typewriter mono Fine.ttf */,
+				332E9B032BF6336700AD56D8 /* JMH Typewriter mono Italic Cross.ttf */,
+				332E9B042BF6336700AD56D8 /* JMH Typewriter mono Italic Over.ttf */,
+				332E9B052BF6336700AD56D8 /* JMH Typewriter mono Italic Under.ttf */,
+				332E9B062BF6336700AD56D8 /* JMH Typewriter mono Italic.ttf */,
+				332E9B072BF6336700AD56D8 /* JMH Typewriter mono Over.ttf */,
+				332E9B082BF6336700AD56D8 /* JMH Typewriter mono Under.ttf */,
+				332E9B092BF6336700AD56D8 /* JMH Typewriter mono.ttf */,
+				332E9B0A2BF6336700AD56D8 /* Personal Use Only-User Terms Agreement.txt */,
+			);
+			path = jmh_typewriter_mono;
+			sourceTree = "<group>";
+		};
+		3371791D2BF4E4CB00169829 = {
+			isa = PBXGroup;
+			children = (
+				337179282BF4E4CB00169829 /* RetroPopApp */,
+				337179272BF4E4CB00169829 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		337179272BF4E4CB00169829 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				337179262BF4E4CB00169829 /* RetroPopApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		337179282BF4E4CB00169829 /* RetroPopApp */ = {
+			isa = PBXGroup;
+			children = (
+				332E9B2D2BF633AF00AD56D8 /* Info.plist */,
+				332E9AE72BF6334200AD56D8 /* resources */,
+				337179292BF4E4CB00169829 /* RetroPopAppApp.swift */,
+				3371792B2BF4E4CB00169829 /* ContentView.swift */,
+				3371792D2BF4E4CD00169829 /* Assets.xcassets */,
+				3371792F2BF4E4CD00169829 /* Preview Content */,
+			);
+			path = RetroPopApp;
+			sourceTree = "<group>";
+		};
+		3371792F2BF4E4CD00169829 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				337179302BF4E4CD00169829 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		337179252BF4E4CB00169829 /* RetroPopApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 337179342BF4E4CD00169829 /* Build configuration list for PBXNativeTarget "RetroPopApp" */;
+			buildPhases = (
+				337179222BF4E4CB00169829 /* Sources */,
+				337179232BF4E4CB00169829 /* Frameworks */,
+				337179242BF4E4CB00169829 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RetroPopApp;
+			productName = RetroPopApp;
+			productReference = 337179262BF4E4CB00169829 /* RetroPopApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3371791E2BF4E4CB00169829 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					337179252BF4E4CB00169829 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 337179212BF4E4CB00169829 /* Build configuration list for PBXProject "RetroPopApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3371791D2BF4E4CB00169829;
+			productRefGroup = 337179272BF4E4CB00169829 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				337179252BF4E4CB00169829 /* RetroPopApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		337179242BF4E4CB00169829 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				332E9B1E2BF6336700AD56D8 /* JMH Typewriter mono Fine Italic Cross.ttf in Resources */,
+				332E9AE92BF6335E00AD56D8 /* Magic Sound.ttf in Resources */,
+				332E9B192BF6336700AD56D8 /* JMH Typewriter mono Bold Over.ttf in Resources */,
+				332E9B252BF6336700AD56D8 /* JMH Typewriter mono Italic Cross.ttf in Resources */,
+				332E9B1C2BF6336700AD56D8 /* JMH Typewriter mono Cross.ttf in Resources */,
+				332E9B232BF6336700AD56D8 /* JMH Typewriter mono Fine Under.ttf in Resources */,
+				332E9B1A2BF6336700AD56D8 /* JMH Typewriter mono Bold Under.ttf in Resources */,
+				332E9B282BF6336700AD56D8 /* JMH Typewriter mono Italic.ttf in Resources */,
+				332E9B2A2BF6336700AD56D8 /* JMH Typewriter mono Under.ttf in Resources */,
+				332E9B0E2BF6336700AD56D8 /* JMH Typewriter mono Black Italic Over.ttf in Resources */,
+				332E9B102BF6336700AD56D8 /* JMH Typewriter mono Black Italic.ttf in Resources */,
+				332E9B122BF6336700AD56D8 /* JMH Typewriter mono Black Under.ttf in Resources */,
+				332E9B142BF6336700AD56D8 /* JMH Typewriter mono Bold Cross.ttf in Resources */,
+				332E9B182BF6336700AD56D8 /* JMH Typewriter mono Bold Italic.ttf in Resources */,
+				332E9B202BF6336700AD56D8 /* JMH Typewriter mono Fine Italic Under.ttf in Resources */,
+				332E9B212BF6336700AD56D8 /* JMH Typewriter mono Fine Italic.ttf in Resources */,
+				332E9B2B2BF6336700AD56D8 /* JMH Typewriter mono.ttf in Resources */,
+				332E9B292BF6336700AD56D8 /* JMH Typewriter mono Over.ttf in Resources */,
+				332E9B222BF6336700AD56D8 /* JMH Typewriter mono Fine Over.ttf in Resources */,
+				332E9B272BF6336700AD56D8 /* JMH Typewriter mono Italic Under.ttf in Resources */,
+				332E9B1B2BF6336700AD56D8 /* JMH Typewriter mono Bold.ttf in Resources */,
+				332E9B262BF6336700AD56D8 /* JMH Typewriter mono Italic Over.ttf in Resources */,
+				332E9B1F2BF6336700AD56D8 /* JMH Typewriter mono Fine Italic Over.ttf in Resources */,
+				332E9B0F2BF6336700AD56D8 /* JMH Typewriter mono Black Italic Under.ttf in Resources */,
+				332E9B152BF6336700AD56D8 /* JMH Typewriter mono Bold Italic Cross.ttf in Resources */,
+				332E9B132BF6336700AD56D8 /* JMH Typewriter mono Black.ttf in Resources */,
+				332E9B172BF6336700AD56D8 /* JMH Typewriter mono Bold Italic Under.ttf in Resources */,
+				332E9B162BF6336700AD56D8 /* JMH Typewriter mono Bold Italic Over.ttf in Resources */,
+				332E9B0D2BF6336700AD56D8 /* JMH Typewriter mono Black Italic Cross.ttf in Resources */,
+				332E9B0C2BF6336700AD56D8 /* JMH Typewriter mono Black Cross.ttf in Resources */,
+				332E9B2C2BF6336700AD56D8 /* Personal Use Only-User Terms Agreement.txt in Resources */,
+				337179312BF4E4CD00169829 /* Preview Assets.xcassets in Resources */,
+				332E9B1D2BF6336700AD56D8 /* JMH Typewriter mono Fine Cross.ttf in Resources */,
+				332E9B242BF6336700AD56D8 /* JMH Typewriter mono Fine.ttf in Resources */,
+				3371792E2BF4E4CD00169829 /* Assets.xcassets in Resources */,
+				332E9B112BF6336700AD56D8 /* JMH Typewriter mono Black Over.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		337179222BF4E4CB00169829 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3371792C2BF4E4CB00169829 /* ContentView.swift in Sources */,
+				3371792A2BF4E4CB00169829 /* RetroPopAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		337179322BF4E4CD00169829 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		337179332BF4E4CD00169829 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		337179352BF4E4CD00169829 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RetroPopApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RetroPopApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.livtrndd.RetroPopApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		337179362BF4E4CD00169829 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RetroPopApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RetroPopApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.livtrndd.RetroPopApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		337179212BF4E4CB00169829 /* Build configuration list for PBXProject "RetroPopApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				337179322BF4E4CD00169829 /* Debug */,
+				337179332BF4E4CD00169829 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		337179342BF4E4CD00169829 /* Build configuration list for PBXNativeTarget "RetroPopApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				337179352BF4E4CD00169829 /* Debug */,
+				337179362BF4E4CD00169829 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3371791E2BF4E4CB00169829 /* Project object */;
+}
