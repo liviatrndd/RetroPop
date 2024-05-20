@@ -4,10 +4,7 @@
 <dict>
 	<key>UIAppFonts</key>
 	<array>
-		<string>Magic Sound.ttf</string>
-		<string>jmh_typewriter_mono</string>
-		<string>JMH Typewriter mono.ttf</string>
-		<string>JMH Typewriter mono Bold.ttf</string>
+		<string>Roboto-Italic.ttf</string>
 	</array>
 </dict>
 </plist>

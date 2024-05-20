@@ -14,6 +14,16 @@ struct ContentView: View {
        }
        
     func botaoDir() {
+           for i in 0..<showGrid.count {
+               if showGrid[i] {
+                   showGrid[i] = false
+                   if i + 1 < showGrid.count {
+                       showGrid[i + 1] = true
+                   }
+                   selectedImage = nil // Reset selected image when moving to next grid
+                   break
+               }
+           }
            print("Botão direito pressionado")
        }
     
@@ -24,7 +34,27 @@ struct ContentView: View {
     func clicaCerto2() {
         print("Alternativa escolhida")
     }
-       
+    
+    @State var titulo0 = "Qual o clipe que mais te marcou?"
+    
+    @State var imagem1 = "thriller"
+    @State var imagem2 = "singleladies2"
+    @State var imagem3 = "britney"
+    @State var imagem4 = "gangnamstyle"
+
+
+    @State var titulo1 = "Qual desses você jogaria agora?"
+    
+    @State var imagem5 = "mario2"
+    @State var imagem6 = "gta2"
+    @State var imagem7 = "mortalkombat"
+    @State var imagem8 = "lol2"
+    
+    //op
+    
+    @State var showGrid: [Bool] = [true, false]
+    @State var selectedImage: Int? = nil
+
     var body: some View {
         ZStack(alignment: .top) {
             Rectangle()
@@ -39,93 +69,26 @@ struct ContentView: View {
                     .padding(.top, -60)
                     .padding(.bottom, -30)
                 
-                
-                ZStack{
-                    Rectangle()
-                        .frame(width: 345, height: 512)
-                        .clipShape(.rect(cornerRadius: 10))
-                        .foregroundColor(.black)
-                        .offset(x: 12, y: 12)
-                    
-                    Rectangle()
-                        .frame(width: 345, height: 512)
-                        .clipShape(.rect(cornerRadius: 10))
-                        .foregroundColor(.rosaPink)
-                    
-                    VStack {
-                        Text("hit me baby")
-                            .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
-                        HStack {
-                        // Botões alternativas
-                            Button(action: clicaCerto1) {
-                                ZStack {
-                                    Rectangle()
-                                        .fill(Color.amarelo2)
-                                        .frame(width: 157, height: 206)
-                                        .cornerRadius(10.0)
-                                    
-                                    Image("britney")
-                                        .resizable()
-                                        .scaledToFill()
-                                        .frame(width: 150, height: 198)
-                                        .clipped()
-                                        .cornerRadius(10.0)
-                                }//.frame(width: 157, height: 206)
-                            }
-                            
-                            Button(action: clicaCerto2) {
-                                ZStack {
-                                    Rectangle()
-                                        .fill(Color.amarelo2)
-                                        .frame(width: 157, height: 206)
-                                        .cornerRadius(10.0)
-                                    
-                                    Image("singleladies2")
-                                        .resizable()
-                                        .scaledToFill()
-                                        .frame(width: 150, height: 198)
-                                        .clipped()
-                                        .cornerRadius(10.0)
-                                }//.frame(width: 157, height: 206)
-                            }
-                            
-                        }
-                        HStack{
-                            Button(action: clicaCerto2) {
-                                ZStack {
-                                    Rectangle()
-                                        .fill(Color.amarelo2)
-                                        .frame(width: 157, height: 206)
-                                        .cornerRadius(10.0)
-                                    
-                                    Image("thriller")
-                                        .resizable()
-                                        .scaledToFill()
-                                        .frame(width: 150, height: 198)
-                                        .clipped()
-                                        .cornerRadius(10.0)
-                                }//.frame(width: 157, height: 206)
-                            }
-                            
-                            Button(action: clicaCerto2) {
-                                ZStack {
-                                    Rectangle()
-                                        .fill(Color.amarelo2)
-                                        .frame(width: 157, height: 206)
-                                        .cornerRadius(10.0)
-                                    
-                                    Image("gangnamstyle")
-                                        .resizable()
-                                        .scaledToFill()
-                                        .frame(width: 150, height: 198)
-                                        .clipped()
-                                        .cornerRadius(10.0)
-                                }//.frame(width: 157, height: 206)
-                            }
-                        }
-                    }
-                }
-                
+                if showGrid[0] {
+                                   GridView(
+                                       titulo: $titulo0,
+                                       img1: $imagem1,
+                                       img2: $imagem2,
+                                       img3: $imagem3,
+                                       img4: $imagem4,
+                                       selectedImage: $selectedImage
+                                   )
+                               } else if showGrid[1] {
+                                   GridView(
+                                       titulo: $titulo1,
+                                       img1: $imagem5,
+                                       img2: $imagem6,
+                                       img3: $imagem7,
+                                       img4: $imagem8,
+                                       selectedImage: $selectedImage
+                                   )
+                               }
+                               
                 HStack {
                     
                     Button(action: botaoEsq) {
@@ -154,7 +117,10 @@ struct ContentView: View {
                     
                 }
                 
+                
                 // progress bar
+                
+                
                 
             }
             
