@@ -5,6 +5,8 @@
 	<key>UIAppFonts</key>
 	<array>
 		<string>Roboto-Italic.ttf</string>
+		<string>SpecialElite-Regular.ttf</string>
+		<string>SyneMono-Regular.ttf</string>
 	</array>
 </dict>
 </plist>

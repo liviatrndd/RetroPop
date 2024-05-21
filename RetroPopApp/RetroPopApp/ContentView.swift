@@ -8,23 +8,24 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var GridsToView = Grids
+    @State private var current: Int = 0
+    @State private var selectedImage: Int? = nil
     
     func botaoEsq() {
-           print("Botão esquerdo pressionado")
-       }
+        if current > 0 {
+                   current -= 1
+                   selectedImage = nil // Reset selected image when moving to the previous grid
+        }
+               print("Botão esquerdo pressionado")
+    }
        
     func botaoDir() {
-           for i in 0..<showGrid.count {
-               if showGrid[i] {
-                   showGrid[i] = false
-                   if i + 1 < showGrid.count {
-                       showGrid[i + 1] = true
-                   }
-                   selectedImage = nil // Reset selected image when moving to next grid
-                   break
+        if current < GridsToView.count - 1 {
+                   current += 1
+                   selectedImage = nil // Reset selected image when moving to the next grid
                }
-           }
-           print("Botão direito pressionado")
+               print("Botão direito pressionado")
        }
     
     func clicaCerto1() {
@@ -35,25 +36,6 @@ struct ContentView: View {
         print("Alternativa escolhida")
     }
     
-    @State var titulo0 = "Qual o clipe que mais te marcou?"
-    
-    @State var imagem1 = "thriller"
-    @State var imagem2 = "singleladies2"
-    @State var imagem3 = "britney"
-    @State var imagem4 = "gangnamstyle"
-
-
-    @State var titulo1 = "Qual desses você jogaria agora?"
-    
-    @State var imagem5 = "mario2"
-    @State var imagem6 = "gta2"
-    @State var imagem7 = "mortalkombat"
-    @State var imagem8 = "lol2"
-    
-    //op
-    
-    @State var showGrid: [Bool] = [true, false]
-    @State var selectedImage: Int? = nil
 
     var body: some View {
         ZStack(alignment: .top) {
@@ -69,24 +51,8 @@ struct ContentView: View {
                     .padding(.top, -60)
                     .padding(.bottom, -30)
                 
-                if showGrid[0] {
-                                   GridView(
-                                       titulo: $titulo0,
-                                       img1: $imagem1,
-                                       img2: $imagem2,
-                                       img3: $imagem3,
-                                       img4: $imagem4,
-                                       selectedImage: $selectedImage
-                                   )
-                               } else if showGrid[1] {
-                                   GridView(
-                                       titulo: $titulo1,
-                                       img1: $imagem5,
-                                       img2: $imagem6,
-                                       img3: $imagem7,
-                                       img4: $imagem8,
-                                       selectedImage: $selectedImage
-                                   )
+                if current < GridsToView.count {
+                                   GridView(grid: GridsToView[current], selectedImage: $selectedImage)
                                }
                                
                 HStack {

@@ -8,9 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		3321BE582BFB6D0800DCCC4C /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3321BE572BFB6D0800DCCC4C /* GridView.swift */; };
-		3321BE5A2BFB9D7200DCCC4C /* Magic_Sound.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3321BE592BFB9D7200DCCC4C /* Magic_Sound.ttf */; };
-		3321BE5C2BFB9D8300DCCC4C /* JMH_Typewrite_mono_Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3321BE5B2BFB9D8300DCCC4C /* JMH_Typewrite_mono_Bold.ttf */; };
 		3321BE5F2BFB9F4C00DCCC4C /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3321BE5E2BFB9F4C00DCCC4C /* Roboto-Italic.ttf */; };
+		335823872BFCBD620001B276 /* SpecialElite-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 335823862BFCBD620001B276 /* SpecialElite-Regular.ttf */; };
+		335823892BFCBE3F0001B276 /* SyneMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 335823882BFCBE3F0001B276 /* SyneMono-Regular.ttf */; };
+		3358238B2BFCCD430001B276 /* GridBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3358238A2BFCCD430001B276 /* GridBase.swift */; };
 		3371792A2BF4E4CB00169829 /* RetroPopAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337179292BF4E4CB00169829 /* RetroPopAppApp.swift */; };
 		3371792C2BF4E4CB00169829 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3371792B2BF4E4CB00169829 /* ContentView.swift */; };
 		3371792E2BF4E4CD00169829 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3371792D2BF4E4CD00169829 /* Assets.xcassets */; };
@@ -19,10 +20,11 @@
 
 /* Begin PBXFileReference section */
 		3321BE572BFB6D0800DCCC4C /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
-		3321BE592BFB9D7200DCCC4C /* Magic_Sound.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Magic_Sound.ttf; sourceTree = "<group>"; };
-		3321BE5B2BFB9D8300DCCC4C /* JMH_Typewrite_mono_Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = JMH_Typewrite_mono_Bold.ttf; sourceTree = "<group>"; };
 		3321BE5E2BFB9F4C00DCCC4C /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
 		332E9B2D2BF633AF00AD56D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		335823862BFCBD620001B276 /* SpecialElite-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpecialElite-Regular.ttf"; sourceTree = "<group>"; };
+		335823882BFCBE3F0001B276 /* SyneMono-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SyneMono-Regular.ttf"; sourceTree = "<group>"; };
+		3358238A2BFCCD430001B276 /* GridBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridBase.swift; sourceTree = "<group>"; };
 		337179262BF4E4CB00169829 /* RetroPopApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetroPopApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		337179292BF4E4CB00169829 /* RetroPopAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetroPopAppApp.swift; sourceTree = "<group>"; };
 		3371792B2BF4E4CB00169829 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -62,13 +64,14 @@
 			children = (
 				332E9B2D2BF633AF00AD56D8 /* Info.plist */,
 				337179292BF4E4CB00169829 /* RetroPopAppApp.swift */,
-				3321BE592BFB9D7200DCCC4C /* Magic_Sound.ttf */,
 				3321BE5E2BFB9F4C00DCCC4C /* Roboto-Italic.ttf */,
-				3321BE5B2BFB9D8300DCCC4C /* JMH_Typewrite_mono_Bold.ttf */,
+				335823862BFCBD620001B276 /* SpecialElite-Regular.ttf */,
+				335823882BFCBE3F0001B276 /* SyneMono-Regular.ttf */,
 				3371792B2BF4E4CB00169829 /* ContentView.swift */,
 				3321BE572BFB6D0800DCCC4C /* GridView.swift */,
 				3371792D2BF4E4CD00169829 /* Assets.xcassets */,
 				3371792F2BF4E4CD00169829 /* Preview Content */,
+				3358238A2BFCCD430001B276 /* GridBase.swift */,
 			);
 			path = RetroPopApp;
 			sourceTree = "<group>";
@@ -139,11 +142,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3321BE5C2BFB9D8300DCCC4C /* JMH_Typewrite_mono_Bold.ttf in Resources */,
-				3321BE5A2BFB9D7200DCCC4C /* Magic_Sound.ttf in Resources */,
 				3321BE5F2BFB9F4C00DCCC4C /* Roboto-Italic.ttf in Resources */,
+				335823872BFCBD620001B276 /* SpecialElite-Regular.ttf in Resources */,
 				337179312BF4E4CD00169829 /* Preview Assets.xcassets in Resources */,
 				3371792E2BF4E4CD00169829 /* Assets.xcassets in Resources */,
+				335823892BFCBE3F0001B276 /* SyneMono-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,6 +159,7 @@
 			files = (
 				3371792C2BF4E4CB00169829 /* ContentView.swift in Sources */,
 				3321BE582BFB6D0800DCCC4C /* GridView.swift in Sources */,
+				3358238B2BFCCD430001B276 /* GridBase.swift in Sources */,
 				3371792A2BF4E4CB00169829 /* RetroPopAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

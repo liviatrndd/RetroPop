@@ -9,19 +9,11 @@ import SwiftUI
 
 struct GridView: View {
     
-    @Binding var titulo: String
-    @Binding var img1: String
-    @Binding var img2: String
-    @Binding var img3: String
-    @Binding var img4: String
+    var grid: Grid
     @Binding var selectedImage: Int?
     
-    var clicaCerto1: () -> Void = { }
-    var clicaCerto2: () -> Void = {}
     
     var body: some View {
-        
-   
         
         ZStack{
             
@@ -40,8 +32,9 @@ struct GridView: View {
                 .foregroundColor(.rosaPink)
             
             VStack {
-                Text(titulo)
-                    .font(.custom("Roboto-Italic", size: 20))
+                Text(grid.pergunta)
+                    .font(.custom("SpecialElite-Regular", size: 19))
+                    .bold()
                     
                 
                 HStack {
@@ -53,7 +46,7 @@ struct GridView: View {
                                 .frame(width: 157, height: 206)
                                 .cornerRadius(10.0)
                             
-                            Image(img1)
+                            Image(grid.imagens[0])
                                 .resizable()
                                 .scaledToFill()
                                 .frame(width: 150, height: 198)
@@ -71,7 +64,7 @@ struct GridView: View {
                                 .frame(width: 157, height: 206)
                                 .cornerRadius(10.0)
                             
-                            Image(img2)
+                            Image(grid.imagens[1])
                                 .resizable()
                                 .scaledToFill()
                                 .frame(width: 150, height: 198)
@@ -90,7 +83,7 @@ struct GridView: View {
                                 .frame(width: 157, height: 206)
                                 .cornerRadius(10.0)
                             
-                            Image(img3)
+                            Image(grid.imagens[2])
                                 .resizable()
                                 .scaledToFill()
                                 .frame(width: 150, height: 198)
@@ -107,7 +100,7 @@ struct GridView: View {
                                 .frame(width: 157, height: 206)
                                 .cornerRadius(10.0)
                             
-                            Image(img4)
+                            Image(grid.imagens[3])
                                 .resizable()
                                 .scaledToFill()
                                 .frame(width: 150, height: 198)
