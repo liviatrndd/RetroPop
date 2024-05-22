@@ -8,25 +8,33 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var GridsToView = Grids
-    @State private var current: Int = 0
-    @State private var selectedImage: Int? = nil
+    @State var GridsToView = Grids
+    @State var current: Int = 0
+    @State var selectedImage: Int? = nil
+    @State var selectedText: Int? = nil
+    
+    var totalGrids: Int {
+           return Grids.count + TextGrids.count
+       }
     
     func botaoEsq() {
-        if current > 0 {
-                   current -= 1
-                   selectedImage = nil // Reset selected image when moving to the previous grid
-        }
-               print("Botão esquerdo pressionado")
-    }
+          if current > 0 {
+              current -= 1
+              selectedImage = nil // Reset selected image when moving to the previous grid
+              selectedText = nil // Reset selected text when moving to the previous grid
+          }
+          print("Botão esquerdo pressionado")
+      }
+      
        
     func botaoDir() {
-        if current < GridsToView.count - 1 {
-                   current += 1
-                   selectedImage = nil // Reset selected image when moving to the next grid
-               }
-               print("Botão direito pressionado")
-       }
+         if current < totalGrids - 1 {
+             current += 1
+             selectedImage = nil // Reset selected image when moving to the next grid
+             selectedText = nil // Reset selected text when moving to the next grid
+         }
+         print("Botão direito pressionado")
+     }
     
     func clicaCerto1() {
         print("Alternativa escolhida")
@@ -51,9 +59,11 @@ struct ContentView: View {
                     .padding(.top, -60)
                     .padding(.bottom, -30)
                 
-                if current < GridsToView.count {
-                                   GridView(grid: GridsToView[current], selectedImage: $selectedImage)
-                               }
+                if current < Grids.count {
+                                    GridView(grid: Grids[current], selectedImage: $selectedImage)
+                                } else if current - Grids.count < TextGrids.count {
+                                    ListView(grid: TextGrids[current - Grids.count], selectedText: $selectedText)
+                                }
                                
                 HStack {
                     
@@ -66,6 +76,7 @@ struct ContentView: View {
                             .clipShape(Circle())
                     }
                         .padding()
+                        .disabled(current == 0)
                     
                         
                     Spacer()
@@ -79,6 +90,7 @@ struct ContentView: View {
                             .clipShape(Circle())
                     }
                         .padding()
+                        .disabled(selectedImage == nil && selectedText == nil)
                
                     
                 }

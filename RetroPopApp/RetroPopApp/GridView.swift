@@ -32,96 +32,67 @@ struct GridView: View {
                 .foregroundColor(.rosaPink)
             
             VStack {
-                Text(grid.pergunta)
-                    .font(.custom("SpecialElite-Regular", size: 19))
-                    .bold()
-                    
-                
                 HStack {
-                    // Botões alternativas
-                    Button(action: { selectedImage = 1 }) {
-                        ZStack {
-                            Rectangle()
-                                .fill(Color.amarelo2)
-                                .frame(width: 157, height: 206)
-                                .cornerRadius(10.0)
-                            
-                            Image(grid.imagens[0])
-                                .resizable()
-                                .scaledToFill()
-                                .frame(width: 150, height: 198)
-                                .clipped()
-                                .cornerRadius(10.0)
-                                .opacity(selectedImage == nil || selectedImage == 1 ? 1.0 : 0.3)
-                            
-                        }//.frame(width: 157, height: 206)
-                    }
+                    Spacer()
+                    Image("star")
+                        .frame(maxHeight: 40)
                     
-                    Button(action: { selectedImage = 2 }) {
-                        ZStack {
-                            Rectangle()
-                                .fill(Color.amarelo2)
-                                .frame(width: 157, height: 206)
-                                .cornerRadius(10.0)
-                            
-                            Image(grid.imagens[1])
-                                .resizable()
-                                .scaledToFill()
-                                .frame(width: 150, height: 198)
-                                .clipped()
-                                .cornerRadius(10.0)
-                                .opacity(selectedImage == nil || selectedImage == 2 ? 1.0 : 0.3)
-                        }//.frame(width: 157, height: 206)
-                    }
+                    Text(grid.pergunta)
+                        .font(.custom("SpecialElite-Regular", size: 19))
+                        .bold()
+                    Spacer()
+                    Spacer()
                     
                 }
-                HStack{
-                    Button(action: { selectedImage = 3 }) {
-                        ZStack {
-                            Rectangle()
-                                .fill(Color.amarelo2)
-                                .frame(width: 157, height: 206)
-                                .cornerRadius(10.0)
-                            
-                            Image(grid.imagens[2])
-                                .resizable()
-                                .scaledToFill()
-                                .frame(width: 150, height: 198)
-                                .clipped()
-                                .cornerRadius(10.0)
-                                .opacity(selectedImage == nil || selectedImage == 3 ? 1.0 : 0.3)
-                        }//.frame(width: 157, height: 206)
+                VStack(spacing: 20) {
+                    HStack {
+                        ForEach(0..<2, id: \.self) { index in
+                            Button(action: { selectedImage = index + 1 }) {
+                                ZStack {
+                                    Rectangle()
+                                        .fill(Color.yellow)
+                                        .frame(width: 157, height: 206)
+                                        .cornerRadius(10.0)
+                                    
+                                    Image(grid.imagens[index])
+                                        .resizable()
+                                        .scaledToFill()
+                                        .frame(width: 150, height: 198)
+                                        .clipped()
+                                        .cornerRadius(10.0)
+                                        .opacity(selectedImage == nil || selectedImage == index + 1 ? 1.0 : 0.3)
+                                }
+                            }
+                        }
                     }
                     
-                    Button(action: { selectedImage = 4 }) {
-                        ZStack {
-                            Rectangle()
-                                .fill(Color.amarelo2)
-                                .frame(width: 157, height: 206)
-                                .cornerRadius(10.0)
-                            
-                            Image(grid.imagens[3])
-                                .resizable()
-                                .scaledToFill()
-                                .frame(width: 150, height: 198)
-                                .clipped()
-                                .cornerRadius(10.0)
-                                .opacity(selectedImage == nil || selectedImage == 4 ? 1.0 : 0.3)
-                        }//.frame(width: 157, height: 206)
+                    HStack {
+                        ForEach(2..<4, id: \.self) { index in
+                            Button(action: { selectedImage = index + 1 }) {
+                                ZStack {
+                                    Rectangle()
+                                        .fill(Color.yellow)
+                                        .frame(width: 157, height: 206)
+                                        .cornerRadius(10.0)
+                                    
+                                    Image(grid.imagens[index])
+                                        .resizable()
+                                        .scaledToFill()
+                                        .frame(width: 150, height: 198)
+                                        .clipped()
+                                        .cornerRadius(10.0)
+                                        .opacity(selectedImage == nil || selectedImage == index + 1 ? 1.0 : 0.3)
+                                }
+                            }
+                        }
                     }
                 }
             }
-        
         }
     }
+    
+    #Preview {
+        ContentView()
+    }
+    
 }
-
-//#Preview {
-//    GridView(
-//        titulo: .constant("titulo"),
-//        img1: .constant("britney"),
-//        img2: .constant("britney"),
-//        img3: .constant("britney"),
-//        img4: .constant("britney")
-//    )
-//}
