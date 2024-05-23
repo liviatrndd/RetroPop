@@ -8,15 +8,12 @@
 import SwiftUI
 
 struct GridView: View {
-    
     var grid: Grid
     @Binding var selectedImage: Int?
-    
+    var atribuirPontos: (String) -> Void
     
     var body: some View {
-        
         ZStack{
-            
             Image("blops")
                 .offset(y: 252)
             
@@ -47,11 +44,25 @@ struct GridView: View {
                 VStack(spacing: 20) {
                     HStack {
                         ForEach(0..<2, id: \.self) { index in
-                            Button(action: { selectedImage = index + 1 }) {
+                            Button(action: {
+                                selectedImage = index + 1
+                                switch index {
+                                case 0: atribuirPontos("anos80")
+                                case 1: atribuirPontos("anos90")
+                                case 2: atribuirPontos("anos2000")
+                                case 3: atribuirPontos("anosAtual")
+                                default: break
+                                }
+                            }) {
                                 ZStack {
                                     Rectangle()
                                         .fill(Color.yellow)
                                         .frame(width: 157, height: 206)
+                                        .cornerRadius(10.0)
+                                    
+                                    Rectangle()
+                                        .fill(Color.rosaPink)
+                                        .frame(width: 150, height: 198)
                                         .cornerRadius(10.0)
                                     
                                     Image(grid.imagens[index])
@@ -68,11 +79,25 @@ struct GridView: View {
                     
                     HStack {
                         ForEach(2..<4, id: \.self) { index in
-                            Button(action: { selectedImage = index + 1 }) {
+                            Button(action: {
+                                selectedImage = index + 1
+                                switch index {
+                                case 0: atribuirPontos("anos80")
+                                case 1: atribuirPontos("anos90")
+                                case 2: atribuirPontos("anos2000")
+                                case 3: atribuirPontos("anosAtual")
+                                default: break
+                                }
+                                }) {
                                 ZStack {
                                     Rectangle()
                                         .fill(Color.yellow)
                                         .frame(width: 157, height: 206)
+                                        .cornerRadius(10.0)
+                                    
+                                    Rectangle()
+                                        .fill(Color.rosaPink)
+                                        .frame(width: 150, height: 198)
                                         .cornerRadius(10.0)
                                     
                                     Image(grid.imagens[index])

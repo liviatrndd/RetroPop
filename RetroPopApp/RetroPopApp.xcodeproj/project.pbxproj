@@ -13,6 +13,7 @@
 		335823892BFCBE3F0001B276 /* SyneMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 335823882BFCBE3F0001B276 /* SyneMono-Regular.ttf */; };
 		3358238B2BFCCD430001B276 /* GridBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3358238A2BFCCD430001B276 /* GridBase.swift */; };
 		3358238D2BFE190A0001B276 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3358238C2BFE190A0001B276 /* ListView.swift */; };
+		3358238F2BFF5EF00001B276 /* Popup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3358238E2BFF5EF00001B276 /* Popup.swift */; };
 		3371792A2BF4E4CB00169829 /* RetroPopAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337179292BF4E4CB00169829 /* RetroPopAppApp.swift */; };
 		3371792C2BF4E4CB00169829 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3371792B2BF4E4CB00169829 /* ContentView.swift */; };
 		3371792E2BF4E4CD00169829 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3371792D2BF4E4CD00169829 /* Assets.xcassets */; };
@@ -27,6 +28,7 @@
 		335823882BFCBE3F0001B276 /* SyneMono-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SyneMono-Regular.ttf"; sourceTree = "<group>"; };
 		3358238A2BFCCD430001B276 /* GridBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridBase.swift; sourceTree = "<group>"; };
 		3358238C2BFE190A0001B276 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		3358238E2BFF5EF00001B276 /* Popup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popup.swift; sourceTree = "<group>"; };
 		337179262BF4E4CB00169829 /* RetroPopApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetroPopApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		337179292BF4E4CB00169829 /* RetroPopAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetroPopAppApp.swift; sourceTree = "<group>"; };
 		3371792B2BF4E4CB00169829 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				3358238A2BFCCD430001B276 /* GridBase.swift */,
 				3371792D2BF4E4CD00169829 /* Assets.xcassets */,
 				3371792F2BF4E4CD00169829 /* Preview Content */,
+				3358238E2BFF5EF00001B276 /* Popup.swift */,
 			);
 			path = RetroPopApp;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3358238F2BFF5EF00001B276 /* Popup.swift in Sources */,
 				3371792C2BF4E4CB00169829 /* ContentView.swift in Sources */,
 				3321BE582BFB6D0800DCCC4C /* GridView.swift in Sources */,
 				3358238D2BFE190A0001B276 /* ListView.swift in Sources */,

@@ -10,7 +10,8 @@ import SwiftUI
 struct ListView: View {
     var grid: TextGrid
     @Binding var selectedText: Int?
-    
+    var atribuirPontos: (String) -> Void
+
     var body: some View {
         ZStack {
             Image("blops")
@@ -43,7 +44,16 @@ struct ListView: View {
                 
                 VStack(spacing: 20) {
                     ForEach(0..<grid.textos.count, id: \.self) { index in
-                        Button(action: { selectedText = index + 1 }) {
+                        Button(action: {
+                            selectedText = index + 1
+                            switch index {
+                            case 0: atribuirPontos("anos80")
+                            case 1: atribuirPontos("anos90")
+                            case 2: atribuirPontos("anos2000")
+                            case 3: atribuirPontos("anosAtual")
+                            default: break
+                            }
+                        }) {
                             ZStack {
                                 Rectangle()
                                     .fill(Color.white)
@@ -72,6 +82,6 @@ struct ListView_Previews: PreviewProvider {
     @State static var selectedText: Int? = nil
 
     static var previews: some View {
-        ListView(grid: TextGrids[0], selectedText: $selectedText)
+        ListView(grid: TextGrids[0], selectedText: $selectedText, atribuirPontos: { _ in })
     }
 }
